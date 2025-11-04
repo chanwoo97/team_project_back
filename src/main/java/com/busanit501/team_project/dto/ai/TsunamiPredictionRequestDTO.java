@@ -9,7 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class RegressionResponseDTO {
-    private double predictedValue;
+public class TsunamiPredictionRequestDTO {
+    private double magnitude;
+    private double depth;
+    private double latitude;
+    private double longitude;
 }
